@@ -1,0 +1,13 @@
+[project]
+name = "ai-learning-assistant"
+version = "1.0.0"
+description = "AI Learning Assistant -- FastAPI + LangChain + LangGraph + Groq backend"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
