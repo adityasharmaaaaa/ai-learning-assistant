@@ -200,7 +200,6 @@ pip install -r requirements.txt
 ### 2. Configure environment
 
 ```bash
-cp .env.example .env
 # then edit .env and set GROQ_API_KEY=...
 ```
 
